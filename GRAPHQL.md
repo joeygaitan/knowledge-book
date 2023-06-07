@@ -28,3 +28,36 @@
 ## GraphQL help
 
 * the graphql response will not tell you much so I would rely on your terminal. Add console logs and start looking from the beginning of your request and follow it along it's path until you fail to see the console.logs
+
+## Graphql playground Help
+
+* How to do a bearer token in graphql playground
+
+```json
+{
+  "Authorization": "Bearer <JWT>"
+}
+```
+
+* How to add variables from query varaibles
+
+```
+mutation Login($username: String!, $password: String!) {
+    Login(username: $username, password: $password)
+    {
+        token
+        user {
+        username
+        email
+        }
+    }
+}
+```
+
+* Then in the query variables do this 
+```json
+{
+  "username": "misterjoe",
+  "password": "1234"
+}
+```
