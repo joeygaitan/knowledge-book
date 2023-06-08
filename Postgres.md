@@ -27,3 +27,7 @@
 ## Test out your role by logging into postgres terminal with your new username!
 
 * ``` psql -U misterjoe -d postgres ```
+
+## How to create a database
+
+* ```CREATE DATABASE dbname;```
