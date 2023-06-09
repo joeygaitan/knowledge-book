@@ -1,5 +1,17 @@
-
 ### This is all for a linux terminal or unix. Like ubuntu, unix, etc. Not powershell...
+
+# How to install Postgresql to WSL 2
+* https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-database
+
+## How to start up Postgresql
+* ```sudo service postgresql start```
+
+## Status of Postgresql running
+* ```sudo service postgresql status```
+
+## How to turn off Postgresql
+* ```sudo service postgresql stop```
+
 # Create A user
 * ```sudo -u postgres createuser <username>```
 
