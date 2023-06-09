@@ -16,7 +16,7 @@
 * ```sudo -u postgres createuser <username>```
 
 ## login into
-* ```sudo psql -u postgres```
+* ```sudo -u postgres psql```
 
 ## Alter user privelages Inside of postgres terminal from command above (sudo psql -u postgres) this one....
 
